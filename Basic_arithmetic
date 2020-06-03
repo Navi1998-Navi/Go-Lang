@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main(){
+	var a, b int
+	fmt.Scanf("%d  %d", &a,  &b);
+	fmt.Println("add",a+b);
+	fmt.Println("Sub",a-b);
+	fmt.Println("Mult",a*b);
+	fmt.Println("Div",a/b);
+	fmt.Println("Mod",a%b);
+	a+=a
+	fmt.Println(a)
+
+}
